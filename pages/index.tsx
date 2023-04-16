@@ -10,7 +10,7 @@ liff.use(new ScanQrcodeV2())
 
 export default function Home() {
 
-  const [liffScanResult, setLiffScanResult] = useState("No result data");
+  const [liffScanResult, setLiffScanResult] = useState("Waiting Result ...");
 
   const liffScan = async () => {
 		try {
