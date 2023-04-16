@@ -10,7 +10,7 @@ export default function Home() {
       const liff = (await import("@line/liff")).default;
       try {
         await liff.init({
-          liffId: "1660829609-xz8VwZ73"
+          liffId: "1656701914-MdYNbmrY"
         });
       } catch (error) {
         console.error("liff init error", error);
@@ -36,14 +36,14 @@ export default function Home() {
   return (
    <>
     <button
-									className="btn btn-primary"
-									onClick={() => {
-										liffScan();
-									}}
-								>
-									Liff Scan User
-								</button>
-								<p>Liff scan Result : {liffScanResult}</p>
+        className="btn btn-primary"
+        onClick={() => {
+          liffScan();
+        }}
+      >
+        Liff Scan User
+      </button>
+      <p>Liff scan Result : {liffScanResult}</p>
    </>
   )
 }
