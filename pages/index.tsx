@@ -10,7 +10,7 @@ export default function Home() {
       const liff = (await import("@line/liff")).default;
       try {
         await liff.init({
-          liffId: "1656701914-MdYNbmrY"
+          liffId: "1660829609-xz8VwZ73"
         });
       } catch (error) {
         console.error("liff init error", error);
