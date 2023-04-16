@@ -10,12 +10,15 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@line/liff": "^2.22.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "global": "^4.4.0",
+    "heroku": "^8.0.4",
     "next": "13.3.0",
     "postcss": "8.4.21",
     "react": "18.2.0",
